@@ -23,13 +23,13 @@ class SideBar extends Component {
             temp1 = amount.map((amount,i) => {
                 return(
                     <li onClick={getValue.bind(this)} key={i} amount={amount.amount} years={amount.years}>
-                         Amount: {amount.amount} Years: {amount.years} </li>
+                         Amount: {amount.amount} Months: {amount.years} </li>
                 )
             })
 
         }
         
-       /* if(years !== null){
+       /* if(years !== null){ser
             temp2 = years.map((years,i) => {
                 return(
                     <li key={i}> Years: {years} </li>
