@@ -15,7 +15,7 @@
 ## Installation
 
 ```sh
-https://github.com/abhisingh192/react-loan-calculator.git
+git clone https://github.com/abhisingh192/react-loan-calculator.git
 cd react-loan-calculator
 npm install
 npm start
