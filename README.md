@@ -10,31 +10,32 @@
 
 ## Installation
 
-### Setup
-
 ```sh
-git clone https://github.com/GavBaros/react-loan-calculator.git
+https://github.com/abhisingh192/react-loan-calculator.git
 cd react-loan-calculator
 npm install
 npm start
-```
-
-### Tests
-
-```sh
-npm run test
 ```
 
 ## Documentation
 
 ### Amount Range Slider
 
-- A controlled component that can accept number values between 1000 and 20000
+- A controlled component that can accept number values between 500 and 5000
+- The values indicates the amount in $
 - Increases or decreases by a number value of 100 at a time ('step' prop)
 
-### Years Range Slider
+### Months Range Slider
 
-- A controlled component that can accept number values between 1 and 5
-- The values indicate the amount of years rather than months
-- Increases or decreases by a number value of 0.5 years at a time ('step' prop), to represent changes of 6 months at a time
+- A controlled component that can accept number values between 6  and 24 
+- The values indicate the number of months
+- Increases or decreases by a number value of 1 at a time
+
+### SideBar
+- Shows the latest 15 values cached in localStorage
+- On clicking on any value of sidebar, amount and the months gets updated and the corresponding values of interest rate and monthly payment are   fetched from the API
+
+### Monthly Payment and Interest Rate values are fetched from the API 
+https://ftl-frontend-test.herokuapp.com/interest?amount=<amount>numMonths=<numMonths>
+
 
