@@ -36,6 +36,6 @@ npm start
 - On clicking on any value of sidebar, amount and the months gets updated and the corresponding values of interest rate and monthly payment are   fetched from the API
 
 ### Monthly Payment and Interest Rate values are fetched from the API 
-https://ftl-frontend-test.herokuapp.com/interest?amount=<amount>numMonths=<numMonths>
+
 
 
