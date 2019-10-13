@@ -1,7 +1,5 @@
 ## React Loan Calculator
 
-> Simple react loan calculator
-
 ## Preview
 
 ![](images/lc1.PNG)
@@ -9,7 +7,6 @@
 ![](images/lc2.PNG)
 # ----------------------------------------------------------
 ![](images/lc3.PNG)
-
 
 
 
