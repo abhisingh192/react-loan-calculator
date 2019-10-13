@@ -1,20 +1,12 @@
 ## React Loan Calculator
 
-> Simple react loan calculator
-
-![](https://img.shields.io/github/last-commit/GavBaros/react-tinder-cards.svg?style=flat)
-![](https://img.shields.io/github/repo-size/GavBaros/react-tinder-cards.svg?style=flat)
-![](https://img.shields.io/david/GavBaros/react-tinder-cards.svg?style=flat)
-
-Drag sliders and get an accurate loan amount.
-
 ## Preview
 
-![](calculator.gif)
-
-## Demo
-
-https://codepen.io/GavBarosee/pen/PVwMvG
+![](images/lc1.PNG)
+# ----------------------------------------------------------
+![](images/lc2.PNG)
+# ----------------------------------------------------------
+![](images/lc3.PNG)
 
 ## Installation
 
@@ -46,10 +38,3 @@ npm run test
 - The values indicate the amount of years rather than months
 - Increases or decreases by a number value of 0.5 years at a time ('step' prop), to represent changes of 6 months at a time
 
-### Display component
-
-- Must have two props: 'years' and 'amount', both values are numbers.
-
-### DisplayChild component
-
-- Must have two props: 'func' and 'text'. 'Func' takes in a function as its value and 'text' a string.
