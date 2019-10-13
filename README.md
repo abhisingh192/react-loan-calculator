@@ -1,5 +1,9 @@
 ## React Loan Calculator
 
+- Simple react loan calculator built using React.js, Bootstrap, HTML, CSS, Javascript.
+- The user can input the amount and the numbers of months using a slider and the values of monthly payment and rate of interest will be fetched from API https://ftl-frontend-test.herokuapp.com/interest?amount=<amount>&numMonths=<numMonths>
+
+
 ## Preview
 
 ![](images/lc1.PNG)
